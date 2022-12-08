@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<style>
+  html,
+  body {
+    width: 99.5%;
+    height: 98.5%;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>부산 코로나와</title>
+</head>
+
+<body>
+  <!-- <div id="select" >
+    <select name="posi" id="posi">
+      <option value="강서구">강서구</option>
+      <option value="금정구">금정구</option>
+      <option value="남구">남구</option>
+      <option value="동구">동구</option>
+      <option value="동래구">동래구</option>
+      <option value="부산진구">부산진구</option>
+      <option value="북구">북구</option>
+      <option value="사상구">사상구</option>
+      <option value="사하구">사하구</option>
+      <option value="서구">서구</option>
+      <option value="수영구">수영구</option>
+      <option value="연제구">연제구</option>
+      <option value="영도구">영도구</option>
+      <option value="중구">중구</option>
+      <option value="해운대구">해운대구</option>
+      <option value="기장군">기장군</option>
+    </select>
+  </div>
+  <input type="button" value="동선" id="move">
+  <input type="button" value="마스크" id="mask"> -->
+
+  <div id="loading">
+    <img id="loading-image" src="loading.gif" width=20 height=20 align="left" hspace="10" />
+    <h4 id="load" class="absolute"></h4>
+  </div>
+  <div id="map" style="width:100%;height:93vh;"></div>
+  <div id="map_" style="width:100%;height:85vh;"></div>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=앱키&libraries=services"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="coronawa.js"></script>
+  <p id="text"></p>
+</body>
+
+</html>
